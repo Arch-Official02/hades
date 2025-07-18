@@ -1,0 +1,25 @@
+ Check Global Email
+bash
+Copy
+Edit
+git config --global user.email
+These are the settings Git uses by default across all your repositories.
+
+🧪 To See What Your Local Repo is Using:
+bash
+Copy
+Edit
+git config --local user.name
+git config --local user.email
+If nothing shows, then your local repo is inheriting the global config.
+
+🔍 Check Everything Together
+bash
+Copy
+Edit
+git config --list --show-origin
+This command shows:
+
+Local, global, and system-level settings
+
+Where each config is set (e.g., .gitconfig, .git/config, etc.)
