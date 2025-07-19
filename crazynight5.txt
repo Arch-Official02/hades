@@ -1,0 +1,23 @@
+
+bash
+Copy
+Edit
+git merge test2
+Then you got this conflict:
+
+pgsql
+Copy
+Edit
+CONFLICT (modify/delete): sot5.txt deleted in HEAD and modified in test2.
+Version test2 of sot5.txt left in tree.
+🔍 Explanation:
+HEAD (your current branch test1) deleted sot5.txt.
+
+test2 modified sot5.txt.
+
+Git doesn’t know what you want:
+
+Do you want to delete the file as test1 says?
+
+Or keep the modified version from test2?
+:
